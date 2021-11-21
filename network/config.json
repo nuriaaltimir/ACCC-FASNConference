@@ -1,0 +1,53 @@
+{
+  "type": "network",
+  "version": "1.0",
+  "data": "data.json",
+  "logo": {
+    "file": "",
+    "link": "",
+    "text": "by Núria Altimir "
+  },
+  "text": {
+    "more": "Network of topics, papers, authours and keywords from the submitted abstracts to the conference of the ACCC and FASN 2021. \nThe papers were submitted to a certain  conference topic and the authours provided their own key words. \nThe relative position of the nodes shows how related they are between them, the more connections between two nodes, the closer. \nTherefore papers from a topic will be arround it. For example, if there is only one paper treating a particular subject it will be away from the bulk. Those forming the bulk  are sharing common key-words or co-authoured by similar people.\n",
+    "intro": "Network of topics, papers, authours and keywords from the submitted abstracts to the conference of the ACCC and FASN 2021.\nBrowse the network freely by scrolling, moving and hovering. Or search for a term. On node click information to connections on the right.",
+    "title": "ACCC and FASN conference"
+  },
+  "legend": {
+    "edgeLabel": "Connections",
+    "colorLabel": "Type of node",
+    "nodeLabel": "Nodes are Topic, papers, authours and keywords"
+  },
+  "features": {
+    "search": true,
+    "groupSelectorAttribute": false,
+    "hoverBehavior": "dim"
+  },
+  "informationPanel": {
+    "groupByEdgeDirection": false,
+    "imageAttribute": false
+  },
+  "sigma": {
+    "drawingProperties": {
+      "defaultEdgeType": "curve",
+      "defaultHoverLabelBGColor": "#002147",
+      "defaultLabelBGColor": "#ddd",
+      "activeFontStyle": "bold",
+      "defaultLabelColor": "#000",
+      "labelThreshold": 10,
+      "defaultLabelHoverColor": "#fff",
+      "fontStyle": "bold",
+      "hoverFontStyle": "bold",
+      "defaultLabelSize": 14
+    },
+    "graphProperties": {
+      "maxEdgeSize": 0.5,
+      "minEdgeSize": 0.2,
+      "minNodeSize": 1,
+      "maxNodeSize": 7
+    },
+    "mouseProperties": {
+      "maxRatio": 20,
+      "minRatio": 0.75
+    }
+  }
+}
